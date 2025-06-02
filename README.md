@@ -22,13 +22,15 @@
    cd vpn-telegram-bot
 2. Установите зависимости:
 
-bash
 pip install -r requirements.txt
 Настройте конфигурацию:
 
 Отредактируйте config.py (см. раздел "Конфигурация")
 
-Для работы Reality заполните PUBLIC_KEY, PRIVATE_KEY и SHORT_ID
+Для работы Reality заполните: 
+PUBLIC_KEY,
+PRIVATE_KEY,
+SHORT_ID
 
 Запустите бота:
 python bot.py
