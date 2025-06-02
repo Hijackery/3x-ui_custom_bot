@@ -36,7 +36,9 @@ SHORT_ID
 python bot.py
 
 🔧 Конфигурация
-Заполните данные в config.py:
+
+Заполните данные в config.py
+```
 class Config:
     # Telegram
     TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
@@ -63,6 +65,7 @@ class Config:
     PORT_RANGE = (30000, 40000)
     DEFAULT_FLOW = "xtls-rprx-vision"
     DEFAULT_EXPIRE_DAYS = 0
+```
 
 🛠 Технологии
 Python 3.8+
