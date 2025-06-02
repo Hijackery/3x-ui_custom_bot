@@ -18,8 +18,8 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/Hijackery/vpn-telegram-bot.git
-   cd vpn-telegram-bot
+   git clone git https://github.com/Hijackery/3x-ui_custom_bot
+   cd 3x-ui_custom_bot
 2. Установите зависимости:
 
 pip install -r requirements.txt
