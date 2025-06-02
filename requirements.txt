@@ -1,0 +1,4 @@
+python-telegram-bot
+httpx
+speedtest-cli
+qrcode[pil]
