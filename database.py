@@ -76,7 +76,7 @@ class Database:
 
     def get_user_configs(self, user_id: int) -> List[Dict]:
         cursor = self.conn.execute(
-            "SELECT id, inbound_id, email, port, created_at FROM configs WHERE user_id = ? AND is_active = 1",
+            "SELECT id, inbound_id, email, uuid, port, flow, data FROM configs WHERE user_id = ? AND is_active = 1",
             (user_id,)
         )
         return cursor.fetchall()
